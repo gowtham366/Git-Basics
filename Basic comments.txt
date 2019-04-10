@@ -1,0 +1,19 @@
+Install Git and configuring Git
+--------------------------------
+1. git config --global --list   //view the list of config
+2. git config --global user.name = Gowtham
+3. git config --global user.email = gowtham366.vpi@gmail.com
+4. git config --global help.autocorrect 1      //Setting autocorrect time to 1 sec
+5. git config --global color.ui auto
+6. git config --global core.autocrlf true|false|input  //true - for windows which converts carriage return to line feed and vice versa, false - for Mac OS which is already like line feed, input - store feeds as line feeds but won't convert back again on the way back out
+
+Creating a local repository
+----------------------------
+1. Go to until the folder where you wanna create
+2. git init
+3. ls -la
+4. echo "Description of the repository for readme file" > README.txt
+5. git status //To check the modified or newly added files in the repository
+6. git add filename  //adding the modified files to staging "git add -A" to add all
+7. git status //confirming the file is staged or not
+8. git commit //will commit the changes use "git commit -m "Description of the changes/file""
