@@ -17,3 +17,4 @@ Creating a local repository
 6. git add filename  //adding the modified files to staging "git add -A" to add all
 7. git status //confirming the file is staged or not
 8. git commit //will commit the changes use "git commit -m "Description of the changes/file""
+9. git push  //will publish the local changes to repository
